@@ -1,0 +1,129 @@
+/* BORDES*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General */
+body {
+    
+    background: #181717;
+    
+}
+
+/* HEADER PRINCIPAL */
+.CONTAINER {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.img {
+    width: 400px;
+    height: 400px;
+}
+body > header {
+    background: #00c3ff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+
+/* CONTENEDOR CENTRAL */
+body {
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "nav section aside"
+        "footer footer footer";
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 30px;
+}
+
+/* Asignar áreas */
+body > header { grid-area: header; }
+nav { grid-area: nav; }
+section { grid-area: section; }
+aside { grid-area: aside; }
+body > footer { grid-area: footer; }
+
+/* NAV */
+nav {
+    background: #00c3ff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+}
+a{ 
+    background-color: #181717;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+
+/* SECTION */
+section {
+    background: #00c3ff;
+    padding: 15px;
+    text-align: center;
+}
+
+/* HEADER DENTRO DE SECTION */
+section header {
+    background: #6d6c6c;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* ARTICLE */
+article {
+    background: #3d3d3d;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* FOOTER DENTRO DE SECTION */
+section footer {
+    background: #3d3d3d;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* ASIDE */
+aside {
+    background: #00c3ff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* FOOTER PRINCIPAL */
+body > footer {
+    background: #00c3ff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+.CONTAINER {
+    display: flex;
+    justify-content: center;
+   
+}
+/* IMAGEN */
+img {
+    width: 500px;
+    height: 50px;
+}   
