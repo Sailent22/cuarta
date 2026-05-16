@@ -24,7 +24,7 @@ body {
     height: 400px;
 }
 body > header {
-    background: #00c3ff;
+    background:  #0444a5;
     color: white;
     text-align: center;
     padding: 20px;
@@ -111,7 +111,7 @@ aside {
 
 /* FOOTER PRINCIPAL */
 body > footer {
-    background: #00c3ff;
+    background: #0444a5;
     color: white;
     text-align: center;
     padding: 20px;
